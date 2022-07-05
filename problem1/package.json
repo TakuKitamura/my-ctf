@@ -1,0 +1,16 @@
+{
+  "name": "ctf",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "echo 'handlename,message,user-agent,date' > message.csv && echo 'nickname,date' > answerer.csv && node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "csv": "^6.1.3",
+    "express": "^4.17.1"
+  },
+  "description": ""
+}
