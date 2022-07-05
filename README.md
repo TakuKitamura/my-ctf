@@ -16,7 +16,7 @@ Access http://localhost:3000
 ```
 
 ### 回答
-Google ChromeやFirefoxなどのデベロッパーツールを利用し、User-Agentを以下の値に設定し、メッセージを投稿する。
+Google ChromeやFirefoxなどのデベロッパーツールを利用し、User-Agentを以下の値に設定し。そして、メッセージを投稿する。
 
 `--> <img src="x" onerror="alert()" />`
 
