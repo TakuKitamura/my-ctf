@@ -25,7 +25,9 @@ Google ChromeやFirefoxなどのデベロッパーツールを利用し、User-A
 1. メッセージが出力される http://localhost:3000/check-message のHTMLをデベロッパーツールで確認する。
 1. ハンドルネーム、メッセージがサニタイジングされていることがわかる。
 1. 他の脆弱性の可能性を検討するため、デベロッパーツールでHTMLを眺めていると、ハンドルネームの要素を囲ったpタグの上に、
+
 `<!-- Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36 -->`
+
 というコメントがあることに気づく。
 1. このWebサイトの開発者はUser-Agentは任意に書き換えられることを知らないという可能性を考える。
 1. User-Agentに`AAA`のような適当な文字列を設定した上で、メッセージを投稿する。
